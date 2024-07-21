@@ -1,0 +1,103 @@
+#post-details {
+    position: relative;
+    display: block;
+    width: 980px;
+    margin: 90px auto;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+#post-details>h1 {
+    color: #207d42;
+    font-family: "Agency FB";
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.post-info-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    background-color: rgb(208, 223, 205);
+}
+
+.post-header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+}
+
+.post_header>h1 {
+    color: rgb(44, 88, 21);
+    margin-top: 5px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.post_header>h4 {
+    color: #7f9783;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.type {
+    display: inline-block;
+    color: #7f9783;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.post-img {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-right: 22px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.post-info-section>.text {
+    margin-top: 30px;
+    padding: 60px;
+    height: 50%;
+}
+
+
+
+.post-summary {
+    margin-top: 15px;
+    padding: 60px;
+    height: 50%;
+}
+
+.text {
+    font-size: 25px;
+    color: #545454;
+}
+
+.buttons {
+    height: 10%;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.button {
+    height: 15%;
+    background-color: #54557b;
+    padding: 14px;
+    margin-top: auto;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: #6f5d9c;
+    color: white;
+}
+
